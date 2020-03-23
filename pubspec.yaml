@@ -1,0 +1,14 @@
+name: l_path
+description: cli command which adds cwd to path
+homepage: https://github.com/lesnitsky/l_path
+version: 1.0.1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+executables:
+  path: path
+
+dependencies:
+  l_cli: "1.0.1"
+  path: ^1.6.4
